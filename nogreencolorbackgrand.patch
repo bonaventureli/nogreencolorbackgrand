@@ -1,0 +1,7 @@
+ QWSServer::setBackground(QColor(0,0,0,0));
+ QPixmap pixmap(":/img/456.png");
+ QPalette palette;
+ palette.setBrush(backgroundRole(), QBrush(pixmap));
+ setPalette(palette);
+ setAttribute(Qt::WA_TranslucentBackground);//set backgroud tou ming
+
